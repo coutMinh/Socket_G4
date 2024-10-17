@@ -102,6 +102,10 @@ int main() {
                 /*EnumWindows(EnumWindowsProc, 0);*/
                 sendbuf = "Func 2";
             }
+            else if (receivedMessage == "2") {
+                /*EnumWindows(EnumWindowsProc, 0);*/
+                sendbuf = "Func 3";
+            }
             else if (receivedMessage == "shutdown") {
                 system("C:\\WINDOWS\\System32\\shutdown/s");
             }
@@ -137,6 +141,6 @@ int main() {
     // Cleanup
     closesocket(ClientSocket);
     WSACleanup();
-
     return 0;
 }
+//https://www.youtube.com/watch?v=YUjamcyuKT4
