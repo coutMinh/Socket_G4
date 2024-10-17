@@ -12,14 +12,15 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.3282
               _Sent=wchar_t *,
               _Size=unsigned __int64
           ]
-C:\Users\ad\OneDrive - VNU-HCMUS\Nam 2\MMT\socketprogramme\socketprogramme\sever.cpp(98,28): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+C:\Users\ad\Desktop\Socket_G4\socketprogramme\sever.cpp(98,28): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
           with
           [
               _Elem=wchar_t,
               _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
               _Alloc=std::allocator<char>
           ]
-C:\Users\ad\OneDrive - VNU-HCMUS\Nam 2\MMT\socketprogramme\socketprogramme\sever.cpp(98,28): message : see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'main'
+C:\Users\ad\Desktop\Socket_G4\socketprogramme\sever.cpp(98,28): message : see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'main'
   utils.cpp
   Generating Code...
-  socketprogramme.vcxproj -> C:\Users\ad\OneDrive - VNU-HCMUS\Nam 2\MMT\socketprogramme\x64\Debug\socketprogramme.exe
+  LINK : C:\Users\ad\Desktop\Socket_G4\x64\Debug\socketprogramme.exe not found or not built by the last incremental link; performing full link
+  socketprogramme.vcxproj -> C:\Users\ad\Desktop\Socket_G4\x64\Debug\socketprogramme.exe
