@@ -32,4 +32,21 @@ std::wstring ListVisibleWindows() {
     return activeAppTitlesStream.str(); 
 }
 
+bool imageCapture() {
+    VideoCapture cap(0);
+    if (!cap.isOpened()) {
+        cout << "!" << endl;
+        return false;
+    }
+    Mat frame;
+    cap >> frame;
+    if (frame.empty()) {
+        cout << "!" << endl;
+        return false;
+    }
+    imwrite("D:\captured_image.jpg", frame);  
+    cap.release();
+
+    return true;
+}
 
