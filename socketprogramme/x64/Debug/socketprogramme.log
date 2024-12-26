@@ -1,5 +1,0 @@
-﻿  utils.cpp
-C:\Users\ad\Desktop\Socket_G4\socketprogramme\utils.cpp(39,17): warning C4305: 'return': truncation from 'int' to 'bool'
-C:\Users\ad\Desktop\Socket_G4\socketprogramme\utils.cpp(45,17): warning C4305: 'return': truncation from 'int' to 'bool'
-C:\Users\ad\Desktop\Socket_G4\socketprogramme\utils.cpp(47,13): warning C4129: 'c': unrecognized character escape sequence
-  socketprogramme.vcxproj -> C:\Users\ad\Desktop\Socket_G4\x64\Debug\socketprogramme.exe
